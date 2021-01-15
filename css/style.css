@@ -41,18 +41,20 @@ address{
 .current{
   color: var(--accent-color);
 }
-.site-nav{
+.menu-nav{
   color: var(--primary-text-color);
 }
 .menu{
   font-weight: 500;
 }
+
 .logo{
   font-family: "Raleway", san-serif;
   font-weight: 700;
   font-size: 26px;  
 }
 .logo-blue{ color: var(--accent-color); }
+.logo-black{ color: var(--title-text-color)}
 
 .current.current,
 .menu-nav:hover,
@@ -64,6 +66,7 @@ address{
   color: var(--accent-color);
 }
 .header-border{ border-bottom: 1px solid #ECECEC;}
+
 
 /*----------HERO----------*/
 .hero {

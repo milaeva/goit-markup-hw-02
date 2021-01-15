@@ -63,6 +63,8 @@ address{
 .footer-contacts:focus {
   color: var(--accent-color);
 }
+.header-border{ border-bottom: 1px solid #ECECEC;}
+
 /*----------HERO----------*/
 .hero {
   background-color: var(--background-accent-color);

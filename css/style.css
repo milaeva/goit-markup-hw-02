@@ -25,7 +25,6 @@ button {
 address{
   font-style: normal;
 }
-
 .list{
   list-style: none;
 }
@@ -38,15 +37,16 @@ address{
 }
 
 /*----------HEADER----------*/
+.menu{
+  font-weight: 500;
+}
 .current{
   color: var(--accent-color);
 }
 .menu-nav{
   color: var(--primary-text-color);
 }
-.menu{
-  font-weight: 500;
-}
+.menu-contact{ color: var(--nav-contact-color);}
 
 .logo{
   font-family: "Raleway", san-serif;
@@ -56,17 +56,15 @@ address{
 .logo-blue{ color: var(--accent-color); }
 .logo-black{ color: var(--title-text-color)}
 
-.current.current,
+.current,
 .menu-nav:hover,
 .menu-nav:focus,
-.contacts:hover,
-.contacts:focus,
+.menu-contact:hover,
+.menu-contact:focus,
 .footer-contacts:hover,
 .footer-contacts:focus {
   color: var(--accent-color);
 }
-.header-border{ border-bottom: 1px solid #ECECEC;}
-
 
 /*----------HERO----------*/
 .hero {
@@ -140,7 +138,6 @@ address{
 }
 
 /*----------Page Portfolio.html----------*/
-
 .buttons {
   font-family: inherit;
   font-weight: 500;
